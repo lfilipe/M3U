@@ -1,9 +1,11 @@
 name: 📂 Fetch M3UPT.m3u
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 * * * *"  # Executa a cada hora, no início de cada hora
-  workflow_dispatch:
+permissions:  
+      contents: write
 
 jobs:
   fetch-file:
