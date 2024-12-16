@@ -2680,3 +2680,23 @@ https://love2live.wideiptv.top/SPTPlus/index.fmp4.m3u8?token=30332ac95e8095af01e
 #EXTVLCOPT:http-user-agent=Firefox
 https://love2live.wideiptv.top/SPT1/index.fmp4.m3u8?token=f836bd97656bcc082fe39b876483b97271d8fc45-ad017ba9742f51e8cfb775388dca8172-1734370883-1734360083
 
+#EXTINF:-1 group-title="TV" tvg-id="DAZN1.pt" tvg-logo="https://www.freeshot.live/upload/source/Eleven-Sports-1_logo.png",DAZN1
+#EXTVLCOPT:http-user-agent=Firefox
+https://love2live.wideiptv.top/ELEVEN1/index.fmp4.m3u8?token=9e26db5d50df71ce2c508155c23e3aee3ba7a686-b7dcffa58f3bd6ca655f4ff550d2e893-1734380336-1734369536
+
+#EXTINF:-1 group-title="TV" tvg-id="DAZN2.pt" tvg-logo="https://www.freeshot.live/upload/source/Eleven-Sports-2-logo.png",DAZN2
+#EXTVLCOPT:http-user-agent=Firefox
+https://love2live.wideiptv.top/ELEVEN2/index.fmp4.m3u8?token=902cddfa5c3c9958382ecdb0b1ccab4aec8b6081-6a9be060c5a9f982afa70a05da40b7b4-1734380383-1734369583
+
+#EXTINF:-1 group-title="TV" tvg-id="Radical.pt" tvg-logo="https://www.freeshot.live/upload/source/SIC-Radical-logo.png",Radical
+#EXTVLCOPT:http-user-agent=Firefox
+https://moonlight.wideiptv.top/SICRadical/index.fmp4.m3u8?token=080ab04cda5ebe0db4ee5727a161ad0d998b1fca-d5872d38b3246e984ed197cd7044aeae-1734380548-1734369748
+
+#EXTINF:-1 group-title="TV" tvg-id="Brazzers.pt" tvg-logo="https://www.freeshot.live/upload/source/Brazzers_TV_Europe-logo.png",Brazzers
+#EXTVLCOPT:http-user-agent=Firefox
+https://moonlight.wideiptv.top/BrazzersTVEU/index.fmp4.m3u8?token=17bed420b1560ff5f5f791764d4163a9ecd8188b-65bdd66382189e9e613f7e6facf000c5-1734380788-1734369988
+
+#EXTINF:-1 group-title="TV" tvg-id="HOT.pt" tvg-logo="https://www.freeshot.live/upload/source/Canal-HOT-logo.png",HOT
+#EXTVLCOPT:http-user-agent=Firefox
+https://moonlight.wideiptv.top/HOT/index.fmp4.m3u8?token=8c557d1ddc3cb7a95ed8c59e3663ce01d04220fd-954787c6055ad08c3d5215fa9a0c5389-1734380910-1734370110
+
