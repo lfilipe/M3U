@@ -20,19 +20,19 @@ jobs:
       run: |
         echo '#EXTINF:-1 group-title="TV" tvg-id="CMTV.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",CMTV' >> M3UPT.m3u
         echo '#EXTVLCOPT:http-user-agent=Firefox' >> M3UPT.m3u
-        echo 'https://moonlight.wideiptv.top/CMTVPT/index.fmp4.m3u8?token=d0e8b188a250d7c1a72a10c2f0e9802f1b6d7654-b29e960442479cd1b7fed26e921c6da1-1734369065-1734358265' >> M3U/M3UPT.m3u
+        echo 'https://moonlight.wideiptv.top/CMTVPT/index.fmp4.m3u8?token=d0e8b188a250d7c1a72a10c2f0e9802f1b6d7654-b29e960442479cd1b7fed26e921c6da1-1734369065-1734358265' >> M3UPT.m3u
         echo '' >> M3UPT.m3u
         echo '#EXTINF:-1 group-title="TV" tvg-id="NewsNow.pt" tvg-logo="https://www.freeshot.live/upload/source/NewsNow-PT-LOGO.png",NEWS NOW' >> M3UPT.m3u
         echo '#EXTVLCOPT:http-user-agent=Firefox' >> M3UPT.m3u
-        echo 'https://moonlight.wideiptv.top/NewsNowPT/index.fmp4.m3u8?token=7d799a3ca8bc9a23317cee8e1f9acb77101a6e8a-8a8044174d16f03b4da70a717bd3e292-1734370665-1734359865' >> M3U/M3UPT.m3u
+        echo 'https://moonlight.wideiptv.top/NewsNowPT/index.fmp4.m3u8?token=7d799a3ca8bc9a23317cee8e1f9acb77101a6e8a-8a8044174d16f03b4da70a717bd3e292-1734370665-1734359865' >> M3UPT.m3u
         echo '' >> M3UPT.m3u
         echo '#EXTINF:-1 group-title="TV" tvg-id="Sportv0.pt" tvg-logo="https://www.freeshot.live/upload/source/Sport_tv_+_logo.png",Sportv+' >> M3UPT.m3u
         echo '#EXTVLCOPT:http-user-agent=Firefox' >> M3UPT.m3u
-        echo 'https://love2live.wideiptv.top/SPTPlus/index.fmp4.m3u8?token=30332ac95e8095af01e962cf4a9028bd09ec83ff-33089a64ba9e79c39faa24ca2df1d9e8-1734370955-1734360155' >> M3U/M3UPT.m3u
+        echo 'https://love2live.wideiptv.top/SPTPlus/index.fmp4.m3u8?token=30332ac95e8095af01e962cf4a9028bd09ec83ff-33089a64ba9e79c39faa24ca2df1d9e8-1734370955-1734360155' >> M3UPT.m3u
         echo '' >> M3UPT.m3u
         echo '#EXTINF:-1 group-title="TV" tvg-id="Sportv1.pt" tvg-logo="https://www.freeshot.live/upload/source/Sport_tv_1_logo.png",Sportv1' >> M3UPT.m3u
         echo '#EXTVLCOPT:http-user-agent=Firefox' >> M3UPT.m3u
-        echo 'https://love2live.wideiptv.top/SPT1/index.fmp4.m3u8?token=f836bd97656bcc082fe39b876483b97271d8fc45-ad017ba9742f51e8cfb775388dca8172-1734370883-1734360083' >> M3U/M3UPT.m3u
+        echo 'https://love2live.wideiptv.top/SPT1/index.fmp4.m3u8?token=f836bd97656bcc082fe39b876483b97271d8fc45-ad017ba9742f51e8cfb775388dca8172-1734370883-1734360083' >> M3UPT.m3u
         echo '' >> M3UPT.m3u
 
     - name: Encurtar URL com TinyURL
