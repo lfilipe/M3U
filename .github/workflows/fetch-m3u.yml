@@ -47,6 +47,7 @@ jobs:
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
+        git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/lfilipe/M3U.git
         git add M3U/M3UPT.m3u
         git commit -m "Added new IPTV streams to M3UPT.m3u"
         git push
