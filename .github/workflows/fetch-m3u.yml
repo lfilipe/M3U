@@ -25,11 +25,11 @@ jobs:
       run: |
         echo '#EXTINF:-1 group-title="TV" tvg-id="CMTV.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",CMTV' >> M3U/M3UPT.m3u
         echo '#EXTVLCOPT:http-user-agent=Firefox' >> M3U/M3UPT.m3u
-        echo 'https://moonlight.wideiptv.top/CMTVPT/index.fmp4.m3u8?token=d0e8b188a250d7c1a72a10c2f0e9802f1b6d7654-b29e960442479cd1b7fed26e921c6da1-1734369065-1734358265' >> M3U/M3UPT.m3u
+        echo 'https://moonlight.wideiptv.top/CMTVPT/index.fmp4.m3u8?token=8b6cb7ad3fcda97dd1b7efeef0aa780bbe19c7e7-df625749ab164241e72336c42c57cb8e-1734381460-1734370660' >> M3U/M3UPT.m3u
         echo '' >> M3U/M3UPT.m3u
         echo '#EXTINF:-1 group-title="TV" tvg-id="NewsNow.pt" tvg-logo="https://www.freeshot.live/upload/source/NewsNow-PT-LOGO.png",NEWS NOW' >> M3U/M3UPT.m3u
         echo '#EXTVLCOPT:http-user-agent=Firefox' >> M3U/M3UPT.m3u
-        echo 'https://moonlight.wideiptv.top/NewsNowPT/index.fmp4.m3u8?token=7d799a3ca8bc9a23317cee8e1f9acb77101a6e8a-8a8044174d16f03b4da70a717bd3e292-1734370665-1734359865' >> M3U/M3UPT.m3u
+        echo 'https://moonlight.wideiptv.top/NewsNowPT/index.fmp4.m3u8?token=ceeac3319a53afc4af0bc391281f50fb8a0a4984-f857cedb3ec7c146083f59aa74c02e5e-1734381375-1734370575' >> M3U/M3UPT.m3u
         echo '' >> M3U/M3UPT.m3u
         echo '#EXTINF:-1 group-title="TV" tvg-id="Sportv0.pt" tvg-logo="https://www.freeshot.live/upload/source/Sport_tv_+_logo.png",Sportv+' >> M3U/M3UPT.m3u
         echo '#EXTVLCOPT:http-user-agent=Firefox' >> M3U/M3UPT.m3u
