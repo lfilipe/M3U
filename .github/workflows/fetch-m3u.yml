@@ -34,12 +34,16 @@ jobs:
         echo '#EXTVLCOPT:http-user-agent=Firefox' >> M3UPT.m3u
         echo 'https://love2live.wideiptv.top/SPT1/index.fmp4.m3u8?token=f836bd97656bcc082fe39b876483b97271d8fc45-ad017ba9742f51e8cfb775388dca8172-1734370883-1734360083' >> M3UPT.m3u
         echo '' >> M3UPT.m3u
+
+    - name: Encurtar URL com TinyURL
+      run: |
+        SHORT_URL=$(curl -s "http://tinyurl.com/api-create.php?url=https://raw.githubusercontent.com/lfilipe/M3U/refs/heads/main/M3UPT.m3u")
+        echo "Link Encurtado: $SHORT_URL"
       
     - name: Commit and push changes
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/lfilipe/M3U.git
         git add M3UPT.m3u
-        git commit -m "Updated IPTV streams to M3UPT.m3u"
+        git commit -m "Added new IPTV streams to M3UPT.m3u"
         git push
