@@ -1,4 +1,4 @@
-name: 📂 Update Stream URLs
+name: 📡 Updates
 
 # Define que este workflow deve ser executado a cada hora
 on:
@@ -12,24 +12,24 @@ jobs:
 
     steps:
       # Passo 1: Checkout do código
-      - name: Checkout repository
+      - name: 🔍 Checkout repository
         uses: actions/checkout@v3
 
       # Passo 2: Configuração do ambiente (instalar wget, curl, etc.)
-      - name: Setup environment
+      - name: 📺 Setup environment
         run: |
           sudo apt-get update
           sudo apt-get install -y wget curl
 
       # Passo 3: Executar o script streams.sh
-      - name: Run streams.sh script
+      - name: 🚀 Run streams.sh script
         run: |
           chmod +x M3U/streams.sh
           cd M3U
           ./streams.sh
 
-      # Passo 4: Commit das alterações no arquivo M3UPT.m3u
-      - name: Commit updated M3UPT.m3u
+      # Passo 4:  Commit das alterações no arquivo M3UPT.m3u
+      - name: 🎢 Commit updated M3UPT.m3u
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -37,7 +37,7 @@ jobs:
           git commit -m "Added new IPTV streams to M3UPT.m3u"
           git push
 
-      - name: Encurtar URL com TinyURL
+      - name: 🔗 Encurtar URL com TinyURL
         run: |
           SHORT_URL=$(curl -s "http://tinyurl.com/api-create.php?url=https://raw.githubusercontent.com/lfilipe/M3U/refs/heads/main/M3U/M3UPT.m3u")
           echo "Link Encurtado: $SHORT_URL"
