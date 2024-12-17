@@ -18,7 +18,7 @@ https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/in
 
 #EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
 #KODIPROP:inputstream=inputstream.adaptive
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMTcvMjAyNCAxMTo0Nzo4IEFNJmhhc2hfdmFsdWU9MStMMUR4Rm5IRW51Y2krbno0U245Zz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWIwMzIyODIyLTIzN2MtNGVhOC1iMWE3LTc0YzdmMWEyNDg4NQ==/
+https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMTcvMjAyNCAxMTo1MDoxMiBBTSZoYXNoX3ZhbHVlPVJJRWQyT2FhM0tndFFGNmJjbCtUdWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD02YTNlM2Y0NC0wNzRkLTQ3NDEtYTJkYy1hOGI4MWQzOGJmNzY=/
 
 #EXTINF:-1 group-title="TV" tvg-id="PortoCanal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porto-Canal.png",Porto Canal
 #KODIPROP:inputstream=inputstream.adaptive
@@ -32,7 +32,7 @@ https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/in
 
 #EXTINF:-1 group-title="TV" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
 #KODIPROP:inputstream=inputstream.adaptive
-https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMTcvMjAyNCAxMTo0Nzo5IEFNJmhhc2hfdmFsdWU9ODJnenJsaU1SOUNQMHVlSmhTbnp1QT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTA2YTMxMGJmLTRhMGUtNGRjOS1hMWM1LWExMTc3NmE4ZmUwNA==/
+https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMTcvMjAyNCAxMTo1MDoxMyBBTSZoYXNoX3ZhbHVlPUVZRVlGak5TVzl2dEhFNmtYYzhVMFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1hYTZkMTNjNy1hOGZkLTQ0MWYtYjI3My05ZmQxOGUyYjM1N2I=/
 
 #EXTINF:-1 group-title="TV" tvg-id="RTP3.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png",RTP 3
 #EXTVLCOPT:http-user-agent=Firefox
@@ -60,32 +60,32 @@ https://rtvelivestream-clnx.rtve.es/rtvesec/la2/la2_main.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-id="CMTV.pt" tvg-logo="https://www.freeshot.live/upload/source/CMTV-new-logo.png",CMTV
 #EXTVLCOPT:http-user-agent=Firefox
-https://moonlight.wideiptv.top/CMTVPT/index.fmp4.m3u8?token=0129df8c92f3c2eece240b11f50c55c6021ac683-da6956f75729a9351ace668e9af16c58-1734446530-1734435730
+https://moonlight.wideiptv.top/CMTVPT/index.fmp4.m3u8?token=dba3c5e6c893aece632f7ff7a728ed86a81a32bd-cb906a86aaa6a8b05fc81ce04b89dff2-1734446717-1734435917
 
 #EXTINF:-1 group-title="TV" tvg-id="NewsNow.pt" tvg-logo="https://www.freeshot.live/upload/source/NewsNow-PT-LOGO.png",NEWS NOW
 #EXTVLCOPT:http-user-agent=Firefox
-https://moonlight.wideiptv.top/NewsNowPT/index.fmp4.m3u8?token=3906821122e35a855111a5a1fb402f9a023590f5-c700d87b53815ce7a3e6a9594ead39e6-1734446530-1734435730
+https://moonlight.wideiptv.top/NewsNowPT/index.fmp4.m3u8?token=54abd58f5348f0c585751b9def769dfbbdaef53a-67d2d8a1dbf027ade64998abc4489ce7-1734446717-1734435917
 
-#EXTINF:-1 group-title="TV" tvg-id="Canal11.pt" tvg-logo="https://www.freeshot.live/upload/source/Canal11-logo.png",Canal11
+#EXTINF:-1 group-title="TV" tvg-id="Canal-11.pt" tvg-logo="https://www.freeshot.live/upload/source/Canal11-logo.png",Canal 11
 #EXTVLCOPT:http-user-agent=Firefox
-https://love2live.wideiptv.top/Canal11/index.fmp4.m3u8?token=dd80cef9be47b6ce4a51912e3a1c6889fb4849c8-070e6d88326140abca0674addccf0340-1734446531-1734435731
+https://love2live.wideiptv.top/Canal11/index.fmp4.m3u8?token=714cea85f9b598188890795fc6dcc1271a21e8a2-63e77bc9b37acffbd1055944f9024de2-1734446718-1734435918
 
-#EXTINF:-1 group-title="TV" tvg-id="Historia.pt" tvg-logo="https://www.freeshot.live/upload/source/CanalHistoria-logo.png",Historia
+#EXTINF:-1 group-title="TV" tvg-id="Historia.pt" tvg-logo="https://www.freeshot.live/upload/source/CanalHistoria-logo.png",História
 #EXTVLCOPT:http-user-agent=Firefox
-https://moonlight.wideiptv.top/HISTORIAPT/index.fmp4.m3u8?token=c8a996fe2527f4bba061a5e7dc903848fb0b2741-b6a2468a695b7e402912f322a4df0d84-1734446531-1734435731
+https://moonlight.wideiptv.top/HISTORIAPT/index.fmp4.m3u8?token=f562d3bcb770345eb40b0877144ca760d3cfaa9e-05e5c5f94141cf8caaabe19d1bdfc5a8-1734446719-1734435919
 
 #EXTINF:-1 group-title="TV" tvg-id="24Kitchen.pt" tvg-logo="https://www.freeshot.live/upload/source/24Kitchen-logo.png",24Kitchen
 #EXTVLCOPT:http-user-agent=Firefox
-https://moonlight.wideiptv.top/24KitchenPT/tracks-v1/index.fmp4.m3u8?token=0f59dbc6f37afa1e63635cab4d7722b4f6fcb4ba-9bd630b14cb766ee42af4741fea4b226-1734446531-1734435731
+https://moonlight.wideiptv.top/24KitchenPT/tracks-v1/index.fmp4.m3u8?token=f89d5228c32875d71968192510170e1fb5b41117-2466086542e33b583e0a33af66aa687a-1734446719-1734435919
 
 #EXTINF:-1 group-title="TV" tvg-id="Radical.pt" tvg-logo="https://www.freeshot.live/upload/source/SIC-Radical-logo.png",Radical
 #EXTVLCOPT:http-user-agent=Firefox
-https://moonlight.wideiptv.top/SICRadical/index.fmp4.m3u8?token=53564acd6538363f82970ab6b3576540e33b95d9-a3a8fd18ee8853a1f8a1475f747076dc-1734446532-1734435732
+https://moonlight.wideiptv.top/SICRadical/index.fmp4.m3u8?token=ad2985c180beba239d52bcc893d079178ed7ef4a-86a282253bb2b5026a6d5431d1a2a8f3-1734446720-1734435920
 
 #EXTINF:-1 group-title="TV" tvg-id="Brazzers.pt" tvg-logo="https://www.freeshot.live/upload/source/Brazzers_TV_Europe-logo.png",Brazzers
 #EXTVLCOPT:http-user-agent=Firefox
-https://moonlight.wideiptv.top/BrazzersTVEU/index.fmp4.m3u8?token=84676ababacf56c94b2b0c82f6642ea4d7594360-c2bf576208b7fff3fbb7efab0a1e39f8-1734446532-1734435732
+https://moonlight.wideiptv.top/BrazzersTVEU/index.fmp4.m3u8?token=1be7879d9e8074c342c3e504d1d21b8d6134e946-71b23811feb0ad2016f1360194b8f26b-1734446720-1734435920
 
 #EXTINF:-1 group-title="TV" tvg-id="HOT.pt" tvg-logo="https://www.freeshot.live/upload/source/Canal-HOT-logo.png",HOT
 #EXTVLCOPT:http-user-agent=Firefox
-https://moonlight.wideiptv.top/HOT/index.fmp4.m3u8?token=f4e18cbfc4f0b57e3a290bf29684f3ca9e5a9e35-53b39b3cec8f3e0b8a1970a7975d46b9-1734446532-1734435732
+https://moonlight.wideiptv.top/HOT/index.fmp4.m3u8?token=21ccd2cd9ffdf4c07809dfc702dea0ca12f9dd64-3bc8094ed0572705fd54927e33a50aa2-1734446721-1734435921
