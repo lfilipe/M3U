@@ -74,6 +74,14 @@ https://moonlight.wideiptv.top/HISTORIAPT/index.fmp4.m3u8?token=fc4612c235ab54bb
 #EXTVLCOPT:http-user-agent=Firefox
 https://moonlight.wideiptv.top/24KitchenPT/tracks-v1/index.fmp4.m3u8?token=0e20cf1528cb17a9604bd634f08ffadb1555d8f9-fc31813cb7821df8e7113463c146f016-1734445332-1734434532
 
+#EXTINF:-1 group-title="TV" tvg-id="DAZNLaLiga.es" tvg-logo="https://www.freeshot.live/upload/source/DAZNLaLigalogo.png",DAZN LaLiga
+#EXTVLCOPT:http-user-agent=Firefox
+https://love2live.wideiptv.top/DAZNLaLiga/index.fmp4.m3u8?token=18964b9121be0c7cdd9027fd7223d4b927a27790-dad6a17a869ce4e5a75917695ec307bf-1734459765-1734448965
+
+#EXTINF:-1 group-title="TV" tvg-id="MovistarLaLiga.es" tvg-logo="https://www.freeshot.live/upload/source/Movistar_LaLiga-logo.png",Movistar LaLiga
+#EXTVLCOPT:http-user-agent=Firefox
+https://love2live.wideiptv.top/LALIGAES/index.fmp4.m3u8?token=a23340efa37a398eab3aac50d1653f0b4107ac66-0b7b52c7709cc49a9466c087295e2d8f-1734460083-1734449283
+
 #EXTINF:-1 group-title="TV" tvg-id="Radical.pt" tvg-logo="https://www.freeshot.live/upload/source/SIC-Radical-logo.png",Radical
 #EXTVLCOPT:http-user-agent=Firefox
 https://moonlight.wideiptv.top/SICRadical/index.fmp4.m3u8?token=080ab04cda5ebe0db4ee5727a161ad0d998b1fca-d5872d38b3246e984ed197cd7044aeae-1734380548-1734369748
