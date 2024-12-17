@@ -22,7 +22,7 @@ https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX
 
 #EXTINF:-1 group-title="TV" tvg-id="PortoCanal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porto-Canal.png",Porto Canal
 #KODIPROP:inputstream=inputstream.adaptive
-https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/playlist_dvr.m3u8
+https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/profile_0/chunklist_dvr.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png",SIC Notícias
 #KODIPROP:inputstream=inputstream.adaptive
@@ -65,6 +65,18 @@ https://moonlight.wideiptv.top/CMTVPT/index.fmp4.m3u8?token=8b6cb7ad3fcda97dd1b7
 #EXTINF:-1 group-title="TV" tvg-id="NewsNow.pt" tvg-logo="https://www.freeshot.live/upload/source/NewsNow-PT-LOGO.png",NEWS NOW
 #EXTVLCOPT:http-user-agent=Firefox
 https://moonlight.wideiptv.top/NewsNowPT/index.fmp4.m3u8?token=ceeac3319a53afc4af0bc391281f50fb8a0a4984-f857cedb3ec7c146083f59aa74c02e5e-1734381375-1734370575
+
+#EXTINF:-1 group-title="TV" tvg-id="Canal11.pt" tvg-logo="https://www.freeshot.live/upload/source/Canal11-logo.png",Canal11
+#EXTVLCOPT:http-user-agent=Firefox
+https://love2live.wideiptv.top/Canal11/index.fmp4.m3u8?token=48e496faa93cab03a7e1139323c23efc323baaeb-edfb8bdcecfaaa0b03290253b8b737ab-1734444679-1734433879
+
+#EXTINF:-1 group-title="TV" tvg-id="Historia.pt" tvg-logo="https://www.freeshot.live/upload/source/CanalHistoria-logo.png",Historia
+#EXTVLCOPT:http-user-agent=Firefox
+https://moonlight.wideiptv.top/HISTORIAPT/index.fmp4.m3u8?token=fc4612c235ab54bb46f6b187d928b4a9566f3563-5cdeb326491062d785ae03b40c089d07-1734445065-1734434265
+
+#EXTINF:-1 group-title="TV" tvg-id="24Kitchen.pt" tvg-logo="https://www.freeshot.live/upload/source/24Kitchen-logo.png",24Kitchen
+#EXTVLCOPT:http-user-agent=Firefox
+https://moonlight.wideiptv.top/24KitchenPT/tracks-v1/index.fmp4.m3u8?token=0e20cf1528cb17a9604bd634f08ffadb1555d8f9-fc31813cb7821df8e7113463c146f016-1734445332-1734434532
 
 #EXTINF:-1 group-title="TV" tvg-id="Radical.pt" tvg-logo="https://www.freeshot.live/upload/source/SIC-Radical-logo.png",Radical
 #EXTVLCOPT:http-user-agent=Firefox
