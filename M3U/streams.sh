@@ -30,4 +30,5 @@ sed -i "/SICRadical/ c https://moonlight.wideiptv.top/SICRadical/index.fmp4.m3u8
 sed -i "/BrazzersTVEU/ c https://moonlight.wideiptv.top/BrazzersTVEU/index.fmp4.m3u8?token=$(curl -s "http://popcdn.day/play.php?stream=BrazzersTVEU" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
 
 # h - update the stream URL 2
-sed -i "/HOT/ c https://moonlight.wideiptv.top/HOT/index.fmp4.m3u8?token=$(curl -s "http://popcdn.day/play.php?stream=HOT" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
+sed -i "/HOT/ c \#EXTINF:-1 group-title=\"TV\" tvg-id=\"HOT.pt\" tvg-logo=\"https://www.freeshot.live/upload/source/Canal-HOT-logo.png\",HOT\n#EXTVLCOPT:http-user-agent=Firefox\nhttps://moonlight.wideiptv.top/HOT/index.fmp4.m3u8?token=$(curl -s "http://popcdn.day/play.php?stream=HOT" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
+
