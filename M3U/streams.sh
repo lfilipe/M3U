@@ -26,6 +26,9 @@ sed -i "/NewsNowPT/ c https://moonlight.wideiptv.top/NewsNowPT/index.fmp4.m3u8?t
 # Canal11 - update the stream URL Canal11
 sed -i "/Canal11\/index.fmp4.m3u8/ c https://love2live.wideiptv.top/Canal11/index.fmp4.m3u8?token=$(curl -s "https://popcdn.day/go.php?stream=Canal11" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
 
+#spt 1 - update the stream URL
+sed -i "/SPTPlus\/index.fmp4.m3u8/ c https://love2live.wideiptv.top/SPTPlus/index.fmp4.m3u8?token=$(curl -s "https://popcdn.day/go.php?stream=SPTPlus" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
+
 # ABOLA - update the stream URL
 sed -i "/ABOLA\/index.fmp4.m3u8/ c https://love2live.wideiptv.top/ABOLA/index.fmp4.m3u8?token=$(curl -s "https://popcdn.day/go.php?stream=ABOLA" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
 
