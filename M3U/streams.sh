@@ -44,6 +44,9 @@ sed -i "/DAZNLaLiga\/index.fmp4.m3u8/ c https://love2live.wideiptv.top/DAZNLaLig
 # Movistar LaLiga - update the stream URL
 sed -i "/LALIGAES\/index.fmp4.m3u8/ c https://love2live.wideiptv.top/LALIGAES/index.fmp4.m3u8?token=$(curl -s "https://popcdn.day/go.php?stream=LALIGAES" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
 
+# Fifa+ Plus - update the stream URL
+sed -i "/wurl\.com/ c https://$(curl -s 'https://popcdn.day/stream/FifaPlus.php' | grep -oP 'source: \"\K[^"]*')" M3UPT.m3u
+
 # SICRadical - update the stream URL SICRadical
 sed -i "/SICRadical/ c https://moonlight.wideiptv.top/SICRadical/index.fmp4.m3u8?token=$(curl -s "http://popcdn.day/play.php?stream=SICRadical" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
 
