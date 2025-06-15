@@ -18,7 +18,7 @@ https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/in
 
 #EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
 #KODIPROP:inputstream=inputstream.adaptive
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNS8yMDI1IDk6MTA6MjcgQU0maGFzaF92YWx1ZT1HbmlIaysxZGRJTVBIQWxtSFVBcVZnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YjUxMTFlOTQtZTAxNC00NzMyLThjZTMtMzdkNDg1NGYxYzJj/
+https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNS8yMDI1IDEwOjExOjMzIEFNJmhhc2hfdmFsdWU9T29oVmRwWE16YThBOC82b1FPYzByQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWVhMjYwYTkwLWQ1NmUtNGYxMS04ZWFmLWIwNDJhM2Q4M2NiMg==/
 
 #EXTINF:-1 group-title="TV" tvg-id="PortoCanal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porto-Canal.png",Porto Canal
 #KODIPROP:inputstream=inputstream.adaptive
@@ -26,7 +26,7 @@ https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/64158
 
 #EXTINF:-1 group-title="TV" tvg-id="SptvMais.pt" tvg-logo="https://www.freeshot.live/upload/source/Sport_tv_+_logo.png",Sporttv +
 #EXTVLCOPT:http-user-agent=Firefox
-https://love2live.wideiptv.top/SPTPlus/index.fmp4.m3u8?token=9730830b9ca7b359365b8eb9d6beeba5ef5b544f-3d35b57014b761fa51b8ce8e76d86d16-1749989130-1749978330
+https://love2live.wideiptv.top/SPTPlus/index.fmp4.m3u8?token=03b83e7be52589173665c0d21105aecc6790ae4d-52b455e6a6854c77e6f232a3e7726c7a-1749992796-1749981996
 
 #EXTINF:-1 group-title="TV" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png",SIC Notícias
 #KODIPROP:inputstream=inputstream.adaptive
@@ -36,15 +36,15 @@ https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/in
 
 #EXTINF:-1 group-title="TV" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
 #KODIPROP:inputstream=inputstream.adaptive
-https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNS8yMDI1IDk6MTA6MjggQU0maGFzaF92YWx1ZT1QRkVrRVdyUmlFK1FKRVQ3WHdYZTB3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZDU4NTBhOTctYmI1NS00N2M5LWI5Y2ItZDYxYmE5OGY5NWNh/
+https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNS8yMDI1IDEwOjExOjM0IEFNJmhhc2hfdmFsdWU9NllLb21UdXZSSWFmLzB6NFl0aGk1dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTc0MGQzOGFjLTdiNDAtNDM5MS1hZGM2LTEyYTZjMjMyZjI5OA==/
 
 #EXTINF:-1 group-title="TV" tvg-id="CMTV.pt" tvg-logo="https://www.freeshot.live/upload/source/CMTV-new-logo.png",CMTV
 #EXTVLCOPT:http-user-agent=Firefox
-https://moonlight.wideiptv.top/CMTVPT/index.fmp4.m3u8?token=070ca587b08f0b8f62cbc9cc06a3eb73c92c90df-0c45c12dbbe904d9e7b21e9ea2f1f02f-1749989129-1749978329
+https://moonlight.wideiptv.top/CMTVPT/index.fmp4.m3u8?token=d864595e4945710a42094b9db8ae411768ce2de9-d4a80f9475ce7d4eb528e5b91e8d868f-1749992795-1749981995
 
 #EXTINF:-1 group-title="TV" tvg-id="NewsNow.pt" tvg-logo="https://www.freeshot.live/upload/source/NewsNow-PT-LOGO.png",NEWS NOW
 #EXTVLCOPT:http-user-agent=Firefox
-https://moonlight.wideiptv.top/NewsNowPT/index.fmp4.m3u8?token=c726cb1e4d817b9559bf56913aa45f31b7494b4f-e3466235524b514572a6027235129a65-1749989129-1749978329
+https://moonlight.wideiptv.top/NewsNowPT/index.fmp4.m3u8?token=76d08bb0061abdf30fc4c6b3b15f2a3d847177f4-b8eae77970b482208cd0745efd33c55b-1749992795-1749981995
 
 #EXTINF:-1 group-title="TV" tvg-id="RTP3.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png",RTP 3
 #EXTVLCOPT:http-user-agent=Firefox
@@ -52,11 +52,11 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-id="ABola.pt" tvg-logo="https://www.freeshot.live/upload/source/ABolaTV-logo.png",ABola
 #EXTVLCOPT:http-user-agent=Firefox
-https://love2live.wideiptv.top/ABOLA/index.fmp4.m3u8?token=1f2bd31034629b3e78881b2d150a00cb9f57edb3-29a347094e03fd66beb7099487e23a25-1749989130-1749978330
+https://love2live.wideiptv.top/ABOLA/index.fmp4.m3u8?token=12329ce01120ec7b6eaef5cc89f06c6c73967050-636b48a353404042d7524fcde81280fb-1749992796-1749981996
 
 #EXTINF:-1 group-title="TV" tvg-id="Canal-11.pt" tvg-logo="https://www.canal11.pt/images/customer/logo.png",Canal 11
 #EXTVLCOPT:http-user-agent=Firefox
-https://love2live.wideiptv.top/Canal11/index.fmp4.m3u8?token=a43b771443f6a16d3ac0164fd6d3524279dbce48-48837c3a34e712caf27645d764fffb93-1749989130-1749978330
+https://love2live.wideiptv.top/Canal11/index.fmp4.m3u8?token=531b0684740c5ae17cb8fb2291bf0d2802510849-b8e85e5512de623679482d2d4281d460-1749992796-1749981996
 
 #EXTINF:-1 group-title="TV" tvg-id="VPlusTVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/vmaistvi.png",V+ TVI
 #KODIPROP:inputstream=inputstream.adaptive
@@ -80,23 +80,23 @@ https://rtvelivestream-clnx.rtve.es/rtvesec/la2/la2_main.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-id="Historia.pt" tvg-logo="https://www.freeshot.live/upload/source/CanalHistoria-logo.png",História
 #EXTVLCOPT:http-user-agent=Firefox
-https://moonlight.wideiptv.top/HISTORIAPT/index.fmp4.m3u8?token=650625f2a6d29f977c7d4366e255873bfeeed608-8414b3c05510001718180dd9a4601b5c-1749989131-1749978331
+https://moonlight.wideiptv.top/HISTORIAPT/index.fmp4.m3u8?token=eedb07324b9efeca0087fd31be576147e6074ba5-2d1c0341f11732fb257f27e06dcedd3c-1749992796-1749981996
 
 #EXTINF:-1 group-title="TV" tvg-id="NationalGeographic.pt" tvg-logo="https://www.freeshot.live/upload/source/NationalGeographic-logo.png",National Geographic
 #EXTVLCOPT:http-user-agent=Firefox
-https://moonlight.wideiptv.top/NationalGeographicPT/index.fmp4.m3u8?token=586e121816a24c205b8e46382dda42d3d758761a-073358b7a4d010f4210e63a8a65705f3-1749989131-1749978331
+https://moonlight.wideiptv.top/NationalGeographicPT/index.fmp4.m3u8?token=ca4010dac3911ed79365487b650859ee0c03ac27-11cda140d9f92d594a8cb30884a6ab1d-1749992797-1749981997
 
 #EXTINF:-1 group-title="TV" tvg-id="24Kitchen.pt" tvg-logo="https://www.freeshot.live/upload/source/24Kitchen-logo.png",24Kitchen
 #EXTVLCOPT:http-user-agent=Firefox
-https://moonlight.wideiptv.top/24KitchenPT/tracks-v1/index.fmp4.m3u8?token=e2f8467457a59a379fb37919ff664ecd42070a13-a2d6aadfd1504b56dc852a7c9b9b7170-1749989131-1749978331
+https://moonlight.wideiptv.top/24KitchenPT/tracks-v1/index.fmp4.m3u8?token=1fab74d5cc6a07b58d0aa302957ecc634e7a82a6-35c650d7ffaf5b2894f4dcb1aa32c80a-1749992797-1749981997
 
 #EXTINF:-1 group-title="TV" tvg-id="DAZNLaLiga.es" tvg-logo="https://www.freeshot.live/upload/source/DAZNLaLigalogo.png",DAZN LaLiga
 #EXTVLCOPT:http-user-agent=Firefox
-https://love2live.wideiptv.top/DAZNLaLiga/index.fmp4.m3u8?token=26e4fc8740c6146217e605646069f114502a0a5c-ede9f6ff38e3d5f914b084aee9e7b454-1749989132-1749978332
+https://love2live.wideiptv.top/DAZNLaLiga/index.fmp4.m3u8?token=09566f3fb1372c0254cc7806b2ddb1a68b1eb342-50677fe04517731188667d4770a1bacf-1749992797-1749981997
 
 #EXTINF:-1 group-title="TV" tvg-id="MovistarLaLiga.es" tvg-logo="https://www.freeshot.live/upload/source/Movistar_LaLiga-logo.png",Movistar LaLiga
 #EXTVLCOPT:http-user-agent=Firefox
-https://love2live.wideiptv.top/LALIGAES/index.fmp4.m3u8?token=aebf4235123c3aa16357ea69f0287be973d3268d-e7b77334fda739b2e6867e941ee9097f-1749989132-1749978332
+https://love2live.wideiptv.top/LALIGAES/index.fmp4.m3u8?token=d2d7de410828c92a4aafe0601f1c1137d0349852-c47bf5d35030a4b2b4ea5ab6b53e00a9-1749992798-1749981998
 
 #EXTINF:-1 group-title="TV" tvg-id="FifaPlus.br" tvg-logo="https://www.freeshot.live/upload/source/FifaPlus-logo.png",FIFA+ Plus
 #EXTVLCOPT:http-user-agent=Firefox
@@ -104,12 +104,12 @@ https://f7ccf7fc.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 
 #EXTINF:-1 group-title="TV" tvg-id="Radical.pt" tvg-logo="https://www.freeshot.live/upload/source/SIC-Radical-logo.png",Radical
 #EXTVLCOPT:http-user-agent=Firefox
-https://moonlight.wideiptv.top/SICRadical/index.fmp4.m3u8?token=a793c83bad94eca07ab1ffcdf0aaeae35e392c4b-3564f391080ad328f396adbda07a8032-1749989133-1749978333
+https://moonlight.wideiptv.top/SICRadical/index.fmp4.m3u8?token=60e21a6785727ca5e7106ab4c4e7dd65c79e5ce2-4e77b2dd16318c7e6bf62e50281e1c6d-1749992798-1749981998
 
 #EXTINF:-1 group-title="TV" tvg-id="Brazzers.pt" tvg-logo="https://www.freeshot.live/upload/source/Brazzers_TV_Europe-logo.png",B
 #EXTVLCOPT:http-user-agent=Firefox
-https://moonlight.wideiptv.top/BrazzersTVEU/index.fmp4.m3u8?token=5ca6b0667392620419818564ffb9dc2ff261a0a0-630e8110c352e4d3c102453bab4969bc-1749989133-1749978333
+https://moonlight.wideiptv.top/BrazzersTVEU/index.fmp4.m3u8?token=681738dec2ca783543f2b266607d8c7cc4a8a56d-bff258a5b1e58aa0ba0164d1ef3879e5-1749992799-1749981999
 
 #EXTINF:-1 group-title="TV" tvg-id="HOT.pt" tvg-logo="https://www.freeshot.live/upload/source/Canal-HOT-logo.png",H
 #EXTVLCOPT:http-user-agent=Firefox
-https://moonlight.wideiptv.top/HOT/index.fmp4.m3u8?token=bc5ba781b3303e132e49e8c16266a52ac53a910d-0bb15ea652e919d8eb5cd08f1427241c-1749989133-1749978333
+https://moonlight.wideiptv.top/HOT/index.fmp4.m3u8?token=3838f48984626be7acf9c7f5a91af05d6e524a49-7794e57020731dd16a9ea9478a50c2f4-1749992799-1749981999
