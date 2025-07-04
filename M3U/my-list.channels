@@ -68,14 +68,6 @@ https://0ff3c09c7580460e8e018cdcaacbadee.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 group-title="TV" tvg-id="GaliciaTVEuropa.es" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVG.png",TV Galicia
 https://crtvg-europa.flumotion.cloud/playlist.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-id="LA1.es" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/La1.png",La 1
-#KODIPROP:inputstream=inputstream.adaptive
-https://rtvelivestream.akamaized.net/rtvesec/la1/la1_main.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-id="LA2.es" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/La2.png",La 2
-#KODIPROP:inputstream=inputstream.adaptive
-https://rtvelivestream-clnx.rtve.es/rtvesec/la2/la2_main.m3u8
-
 #EXTINF:-1 group-title="TV" tvg-id="Historia.pt" tvg-logo="https://www.freeshot.live/upload/source/CanalHistoria-logo.png",História
 #EXTVLCOPT:http-user-agent=Firefox
 https://moonlight.wideiptv.top/HISTORIAPT/index.fmp4.m3u8?token=fc4612c235ab54bb46f6b187d928b4a9566f3563-5cdeb326491062d785ae03b40c089d07-1734445065-1734434265
@@ -87,10 +79,6 @@ https://moonlight.wideiptv.top/NationalGeographicPT/index.fmp4.m3u8?token=594bb8
 #EXTINF:-1 group-title="TV" tvg-id="24Kitchen.pt" tvg-logo="https://www.freeshot.live/upload/source/24Kitchen-logo.png",24Kitchen
 #EXTVLCOPT:http-user-agent=Firefox
 https://moonlight.wideiptv.top/24KitchenPT/tracks-v1/index.fmp4.m3u8?token=0e20cf1528cb17a9604bd634f08ffadb1555d8f9-fc31813cb7821df8e7113463c146f016-1734445332-1734434532
-
-#EXTINF:-1 group-title="TV" tvg-id="DAZNLaLiga.es" tvg-logo="https://www.freeshot.live/upload/source/DAZNLaLigalogo.png",DAZN LaLiga
-#EXTVLCOPT:http-user-agent=Firefox
-https://love2live.wideiptv.top/DAZNLaLiga/index.fmp4.m3u8?token=18964b9121be0c7cdd9027fd7223d4b927a27790-dad6a17a869ce4e5a75917695ec307bf-1734459765-1734448965
 
 #EXTINF:-1 group-title="TV" tvg-id="Radical.pt" tvg-logo="https://www.freeshot.live/upload/source/SIC-Radical-logo.png",Radical
 #EXTVLCOPT:http-user-agent=Firefox
