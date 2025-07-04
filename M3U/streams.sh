@@ -24,13 +24,10 @@ sed -i "/CMTVPT/ c https://moonlight.wideiptv.top/CMTVPT/index.fmp4.m3u8?token=$
 sed -i "/NewsNowPT/ c https://moonlight.wideiptv.top/NewsNowPT/index.fmp4.m3u8?token=$(curl -s "http://popcdn.day/play.php?stream=NewsNowPT" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
 
 # Canal11 - update the stream URL Canal11
-sed -i "/Canal11\/index.fmp4.m3u8/ c https://love2live.wideiptv.top/Canal11/index.fmp4.m3u8?token=$(curl -s "https://popcdn.day/go.php?stream=Canal11" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
+sed -i "/Canal11\/index.fmp4.m3u8/ c https://community.wideiptv.top/Canal11/tracks-v1/index.fmp4.m3u8?token=$(curl -s "https://popcdn.day/go.php?stream=Canal11" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
 
 #spt 1 - update the stream URL
-sed -i "/SPTPlus\/index.fmp4.m3u8/ c https://love2live.wideiptv.top/SPTPlus/index.fmp4.m3u8?token=$(curl -s "https://popcdn.day/go.php?stream=SPTPlus" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
-
-# ABOLA - update the stream URL
-sed -i "/ABOLA\/index.fmp4.m3u8/ c https://love2live.wideiptv.top/ABOLA/index.fmp4.m3u8?token=$(curl -s "https://popcdn.day/go.php?stream=ABOLA" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
+sed -i "/SPTPlus\/index.fmp4.m3u8/ c https://community.wideiptv.top/SPTPlus/tracks-v1/index.fmp4.m3u8?token=$(curl -s "https://popcdn.day/go.php?stream=SPTPlus" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
 
 # HISTORIAPT - update the stream URL
 sed -i "/HISTORIAPT\/index.fmp4.m3u8/ c https://moonlight.wideiptv.top/HISTORIAPT/index.fmp4.m3u8?token=$(curl -s "http://popcdn.day/play.php?stream=HISTORIAPT" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
@@ -41,14 +38,8 @@ sed -i "/NationalGeographicPT\/index.fmp4.m3u8/ c https://moonlight.wideiptv.top
 # 24KitchenPT - update the stream URL
 sed -i "/24KitchenPT/ c https://moonlight.wideiptv.top/24KitchenPT/tracks-v1/index.fmp4.m3u8?token=$(curl -s "http://popcdn.day/play.php?stream=24KitchenPT" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
 
-# DAZNLaLiga - update the stream URL
-sed -i "/DAZNLaLiga\/index.fmp4.m3u8/ c https://love2live.wideiptv.top/DAZNLaLiga/index.fmp4.m3u8?token=$(curl -s "https://popcdn.day/go.php?stream=DAZNLaLiga" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
-
 # Movistar LaLiga - update the stream URL
 sed -i "/LALIGAES\/index.fmp4.m3u8/ c https://love2live.wideiptv.top/LALIGAES/index.fmp4.m3u8?token=$(curl -s "https://popcdn.day/go.php?stream=LALIGAES" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
-
-# Fifa+ Plus - update the stream URL
-sed -i "/wurl\.com/ c $(curl -s 'https://popcdn.day/stream/FifaPlus.php' | grep -oP 'source: \"\K[^"]*')" M3UPT.m3u
 
 # SICRadical - update the stream URL SICRadical
 sed -i "/SICRadical/ c https://moonlight.wideiptv.top/SICRadical/index.fmp4.m3u8?token=$(curl -s "http://popcdn.day/play.php?stream=SICRadical" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
