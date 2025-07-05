@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd M3U
-
+# freeshot.live
 # Copiar o conteúdo de 'my-list.channels' para 'M3UPT.m3u'
 cp my-list.channels M3UPT.m3u
 
@@ -16,6 +16,9 @@ sed -i "/live_cnn/ c https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?
 # TVI Internacional - update the stream URL of TVI Internacional
 
 sed -i "/live_tvi_internacional/ c https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=$(wget https://services.iol.pt/matrix?userId= -o /dev/null -O -)/" M3UPT.m3u
+
+# RTP1 - update the stream URL RTP1
+sed -i "/RTP1/ c https://clouding.wideiptv.top/RTP1/index.fmp4.m3u8?token=$(curl -s "https://popcdn.day/cdn.php?stream=RTP1" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
 
 # CMTVPT - update the stream URL CMTV
 sed -i "/CMTVPT/ c https://moonlight.wideiptv.top/CMTVPT/index.fmp4.m3u8?token=$(curl -s "http://popcdn.day/play.php?stream=CMTVPT" | sed -n 's/.*src="[^"]*token=\([^&"]*\).*/\1/p')" M3UPT.m3u
